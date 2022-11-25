@@ -1,0 +1,188 @@
+*, ::after, ::before{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+
+/*faire un media querie 790
+
+etendre l'image a 80 ou 70 %
+
+ px */
+
+body{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	
+}
+
+
+
+img{
+	display: block;
+	width: 35vw;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 10%;
+}
+
+
+
+.corps{
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+#BarDuHaut{
+ 
+    Font-size: 5vw;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-family: century Gothic;
+    text-shadow: 1px 1px 1px white;
+ }
+ 
+
+
+ #BarDuHaut:hover{
+ 
+ font-size: 5vw;
+ text-align:center;
+ background-color: white;
+ color:green;
+ font-weight: bold;
+ font-family: century Gothic;
+ text-shadow: 2px 1px 5px rgb(181, 230, 29);
+}
+
+
+
+ #Home{
+	    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 1.5vh;
+    padding-left: auto;
+    padding-top: auto;
+    box-shadow: 0px 0px 7px #a2d0a2;
+    font-size: 5vw;
+    box-top-shadow: none;
+ }
+ 
+ 
+ #LePIED{
+ background-color: green;
+ border:   0 solid green;
+ position:    relative;
+ bottom:    0px;
+ right:         0px;
+ left:            0px;
+ box-shadow: 0px 0px 20px #a2d0a2;
+ }
+ 
+
+
+ 
+ #LePIED:hover{
+ background-color: white;
+ border: 0px solid rgb(173,239,193);
+ position: relative;
+ bottom:0px;
+ right:0px;
+ left:0px;
+ }
+ 
+
+ 
+ .fcb{
+ width:50px;
+ height:50px;
+ }
+ 
+ 
+ #Copy{
+ 
+ font-weight:      bold;
+ text-align:          center;
+ position:             relative;
+ color:                  white;
+ font-size:             2vw;
+ font-family:         century Gothic;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ width: 100%;
+ }
+ 
+ 
+ #Copy:hover{
+ text-shadow:     2px -1px 2px rgb(173,239,193);
+ font-weight:       bold;
+ text-align:           center;
+ position:              relative;
+ color:                   green;
+ font-family:         century Gothic;
+
+ }
+ 
+ .bouton{
+
+ 	text-decoration: none;
+    font-family: century gothic;
+    text-shadow: 1px 1px 1px green;
+    font-weight: 500;
+    font-size: 3vw;
+    color: #00da00;
+ }
+ 
+ 
+ .bouton:hover{
+	 
+	color: green;
+	text-shadow: 0px 0px 5px #00da00;
+ }
+ 	
+	
+	.bouton:active{
+	 
+	color: red;
+ }
+ 
+ @media screen and (max-width: 1000px){
+	 img{
+		 width: 50vw;
+	 }
+	 
+ }
+ @media screen and (max-width: 780px){
+ 
+  img{
+		 width: 65vw;
+	 }
+	 #BarDuHaut{
+ 
+    Font-size: 50px;
+	 }
+	 
+	  .bouton{
+		  Font-size: 25px;
+	  }
+ }
+ 
+ @media screen and (max-width: 400px){
+	 img{
+		 width: 80vw;
+	 }
+	 
+ }
+ 

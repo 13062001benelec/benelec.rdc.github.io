@@ -1,0 +1,220 @@
+*, ::after, ::before{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	   width: 100vw;
+	   height: 100vh;
+	   background-image: linear-gradient(to left, rgb(46, 95, 46), rgb(52, 148, 52), rgb(99, 168, 99));
+}
+
+
+/* PARTIE PRINCIPAL   (   */
+
+
+.navbar{
+	      padding-top: 15px;
+	      width: 100%;
+		  height: 10vh;
+		  color: #F1F1F1;
+		  font-size: 3rem;
+		  font-family: 'Century gothic', sans-serif;
+		  text-transform: uppercase;
+		  text-shadow: 0px 0px 5px rbga(0,0,0,0.8);
+		  font-weight: 10;
+		  text-align: center;
+		  margin-bottom: 20px;
+		  background-image: linear-gradient(to left, rgb(39, 75, 39), rgb(54, 148, 54), rgb(112, 190, 112));
+}
+
+
+.bnav{
+	    display: block;
+		width: 70%;
+		height: 366.86px;
+		box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+		margin: auto;
+		border-left: none;
+		border-right: none;
+
+}
+
+/* modifier le formulaire*/.forM{
+	display: block;
+	    padding: 10px 20px;
+		width: 100%;
+		margin-bottom: 0.5vh;
+		position: relative;
+		border-radius: 5px;
+		font-family: verdana;
+		font-weight: 300;
+		border: none;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.2) inset;
+		outline: none;
+}
+
+
+.forM1{
+	      display: block;
+	padding: 10px 20px;
+	width: 100%;
+	margin-bottom: 10px;
+	position: relative;
+	font-family: verdana;
+		font-weight: 300;
+		border-radius: 5px;
+		border: none;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.2) inset;
+		outline: none;
+}
+
+.btn{
+	   display: block;
+	   width: 30%;
+	   height: 5vh;
+	   margin: auto;
+	   border-radius: 5px;
+		font-family: Century gothic, sans-serif;
+		color: #FFF;
+		background-color: rgb(73, 145, 73);
+		outline: none;
+		border: 2px solid rgba(0,0,0,0.1);
+		margin-top: 20px;
+}
+
+.btn:hover{
+	border: 2px solid #F1F1F1;
+}
+
+.btn:active{
+	  background-color: white;
+	  color: rgb(73, 145, 73);
+}
+/* modifier le formulaire */ 
+
+
+.grand{
+	   text-decoration: none;
+	   color:crimson;
+}
+
+.grand:hover{
+	   text-decoration: none;
+	   color:rgb(235, 171, 183);
+}
+
+.grand:active{
+	color: #050ff0;
+	
+}
+
+ /*   )  PARTIE PRINCIPAL */
+
+
+
+
+
+/* redimensionner pour les petites resolutions */@media screen and (max-width: 780px){
+	 body{
+            width: 100%;
+            background-image: linear-gradient(to left, rgb(39, 75, 39), rgb(57, 146, 57), rgb(85, 167, 85));
+            background-size: cover;
+
+	 }
+	 
+	 form{
+	height: 124.71px;
+}
+	 
+	 .navbar{
+	      width: 100%;
+		  height: 51.70px;
+		  color: #FFF;
+		  font-size: 1.9rem;
+		  font-family: 'Century gothic', sans-serif;
+		  text-transform: uppercase;
+		  font-weight: 20;
+		  text-align: center;
+		  margin-bottom: 20px;
+		  background-image: linear-gradient(to left, rgb(39, 75, 39), rgb(57, 146, 57), rgb(85, 167, 85));
+		  margin-bottom: 27px;
+}
+	 
+	 
+	 
+	 
+	 .bnav{
+	    display: block;
+		width: 90%;
+		height: 55vh;
+		margin: auto;
+		box-shadow: none;
+
+}
+
+/* Cible le boutton */
+.btn{
+	   display: block;
+	   width: 40%;
+	   height: 33.35px;
+	   margin: auto;
+	   border-radius: 5px;
+		font-family: verdana;
+		font-weight: 500;
+		color: #FFF;
+		background-color: rgb(73, 145, 73);
+		outline: none;
+		border: 2px solid rgba(0,0,0,0.1);
+		margin-top : 30px;
+		font-size: 11px;
+}/* Cible le boutton*/
+
+/* Cible les champs de texte */ .forM{
+	    display: block;
+	    padding: 8px 15px;
+		width: 100%;
+		margin-bottom: 4px;
+		position: relative;
+		border-radius: 5px;
+		font-family: verdana;
+		font-weight: 300;
+		border: none;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.2) inset;
+		font-size: 11px;
+}
+.forM1{
+	display: block;
+	padding: 8px 15px;
+	width: 100%;
+	margin-bottom: 10px;
+	position: relative;
+	font-family: verdana;
+		font-weight: 300;
+		border-radius: 5px;
+		border: none;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.2) inset;
+		font-size: 11px;
+}
+
+
+.p{
+     width: 100%;
+	 height: auto;
+	 margin-top: 3vh;
+	 font-size: 11px;
+     font-weight: lighter;
+     font-family: 'Verdana';
+}
+
+
+p{
+	color: white;
+}
+/* Cible les champs de texte */
+
+	 
+ }/* redimensionner pour les petites resolutions */
+
+
